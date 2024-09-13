@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cadastro">
+            <form class="novo-contato">
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome"><br>
+                <label for="telefone">Telefone</label><br>
+                <input type="text" name="telefone" id="telefone"><br>
+                <label for="nota">Nota</label><br>
+                <textarea name="nota" id="nota"></textarea><br>
+                <input type="submit" value="Adicionar contato">
+            </form>    
+        </div>
+        <div class="recentes">
+            <table>
+                <tr colspan="3">Recentes</tr>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Nota</th>
+                    <th colspan="2">Ações</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>mari</td>
+                    <td>123</td>
+                    <td>notinha</td>
+                    <td><button>editar</button></td>
+                    <td><button>deletar</button></td>
+                </tr>
+                </table>
+        </div>
+    </div>
+
+    <div class="registros">
+        <table>
+            <tr colspan="3">Contatos</tr>
+
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Nota</th>
+                <th colspan="2">Ações</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>mari</td>
+                <td>123</td>
+                <td>notinha</td>
+                <td><button>editar</button></td>
+                <td><button>deletar</button></td>
+            </tr>
+            </table>
+    </div>
+    
+</body>
+</html>
